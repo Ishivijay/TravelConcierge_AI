@@ -41,7 +41,16 @@ The notebook `travel_planner_agent.ipynb` contains the complete workflow.
 ### Install Dependencies (Windows PowerShell)
 
 ```powershell
+# Create a new virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate
+
+# Upgrade pip
 python -m pip install --upgrade pip
+
+# Install dependencies
 pip install google-adk google-genai flask markdown bleach
 ```
 
