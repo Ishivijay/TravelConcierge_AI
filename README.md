@@ -2,6 +2,8 @@
 
 TravelConcierge AI is a multi-agent travel planning system powered by Google Gemini and the Agent Development Kit (ADK). It validates user inputs, orchestrates specialized agents in parallel, converts results to structured JSON, and presents a professional web interface for end-to-end trip planning.
 
+![Travel Concierge AI UI](Images/UI_Travel_Concierge_AI.png)
+
 ## Features
 
 - Multi-agent orchestration with parallel research (transport, accommodation, itinerary, food)
@@ -11,6 +13,8 @@ TravelConcierge AI is a multi-agent travel planning system powered by Google Gem
 - Built-in testing utilities and analytics
 
 ## Architecture
+
+![Orchestrator Agent Architecture](Images/Orchestrator_Agent_Architecture.png)
 
 - Pipeline: User Input → Verifier → Propagator → Gate → Parallel Research → JSON Converters → Aggregator → Web UI
 - Agents:
